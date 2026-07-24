@@ -50,7 +50,8 @@ Restart Hyprland or log out and log back in to apply the changes.
 
 ## 📸 Preview
 
-Screenshots coming soon.
+![Uploading image.png…]()
+
 
 ## ⚠️ Notes
 

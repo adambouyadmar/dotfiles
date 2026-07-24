@@ -1,25 +1,22 @@
 # 🖥️ Dotfiles
 
-My personal Linux configuration files for **Arch Linux** using **ML4W (My Linux For Work)**.
+My personal Linux dotfiles for **Arch Linux** running **ML4W (My Linux For Work)**.
 
-## Included
+## ✨ Features
 
-- 🪟 Hyprland
-- 📝 LazyVim (Neovim)
-- 📊 Waybar
-- 🖥️ Kitty
-- 🚀 Rofi
-- 🔔 SwayNC
-- 🎵 Cava
-- ⚡ Fastfetch
-- 📂 Yazi
-- 🌟 Starship
-- 📈 Btop
-- 🎨 Spicetify
-- ⚙️ Hyprlock
-- 😴 Hypridle
+- Hyprland
+- Waybar
+- LazyVim
+- Kitty
+- Rofi
+- SwayNC
+- Cava
+- Fastfetch
+- Wlogout
+- Spicetify
+- Wallpapers
 
-## Installation
+## 📦 Installation
 
 Clone the repository:
 
@@ -28,9 +25,19 @@ git clone https://github.com/adambouyadmar/dotfiles.git
 cd dotfiles
 ```
 
-Copy the configuration you want into `~/.config`.
+Create the configuration directory if it doesn't exist:
 
-Example:
+```bash
+mkdir -p ~/.config
+```
+
+Copy all configurations:
+
+```bash
+cp -r .config/* ~/.config/
+```
+
+Or install only what you need:
 
 ```bash
 cp -r .config/hypr ~/.config/
@@ -39,31 +46,16 @@ cp -r .config/kitty ~/.config/
 cp -r .config/nvim ~/.config/
 ```
 
-Or copy everything:
+Restart Hyprland or log out and log back in to apply the changes.
 
-```bash
-cp -r .config/* ~/.config/
-cp .zshrc ~/
-cp .bashrc ~/
-cp .gitconfig ~/
-```
+## 📸 Preview
 
-Restart your session or reload the affected applications.
+Screenshots coming soon.
 
-## Requirements
+## ⚠️ Notes
 
-- Arch Linux
-- ML4W
-- Hyprland
-- Waybar
-- Kitty
-- Neovim
-- Git
+These dotfiles are made for my personal setup based on **ML4W**. Some components, fonts, themes, or packages may need to be installed separately.
 
-## Screenshot
-
-_Add screenshots here._
-
-## License
+## 📜 License
 
 MIT
